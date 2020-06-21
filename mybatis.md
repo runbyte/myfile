@@ -899,15 +899,16 @@ User findUserAccountsById(Integer id);
 
 ### 注解开发总结
 
-* 注解用来代替映射配置文件
-* 常用注解：
-  * 配置statement的注解
-    * `@Select`
-    * `@insert`和`@SelectKey`
-    * `@Update`
-    * `@Delete`
-  * 结果集封装的注解：
-    * `@Results`：相当于resultMap标签
-    * `@Result`：相当于result/id/collection/association标签
-    * `@One`：用于配置`association`
-    * `@Many`：用于配置`collection`
+注解用来代替映射配置文件
+
+常用注解：
+* 配置statement的注解
+  * `@Select`
+  * `@insert`和`@SelectKey`
+  * `@Update`
+  * `@Delete`
+* 结果集封装的注解：
+  * `@Results`：相当于resultMap标签
+  * `@Result`：相当于result/id/collection/association标签
+  * `@One`：用于配置`association`
+  * `@Many`：用于配置`collection`
